@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abyss Explorer - V2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="stats">
+    <div class="bar-col">
+        <div class="bar-label">Health</div>
+        <div class="big-bar"><div id="health-level"></div></div>
+    </div>
+    <div class="bar-col">
+        <div class="bar-label">Oxygen</div>
+        <div class="small-bar"><div id="air-level"></div></div>
+    </div>
+    <div style="margin-left:8px; font-size:12px; opacity:0.95">Depth: <span id="depth-txt">0</span>m<br>Pearls: <span id="gold-txt">0</span></div>
+</div>
+
+<div id="msg-box">
+    <h1 style="color: rgb(255, 0, 0);">Ohh Shit! Suit Breached</h1>
+    <p>You have been Crushed at <span id="final-depth">0</span> meters.</p>
+    <button class="btn-retry" onclick="location.reload()">Wanna! Play agian</button>
+</div>
+
+<canvas id="mainCvs"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>
