@@ -6,7 +6,7 @@ let H = c.height = window.innerHeight;
 
 
 
-const G = 0.04;        
+const G = 0.1;        
 const FRIC = 0.94;    
 const POWER = 0.14;    
 const MAX_SPD = 2.8;  
